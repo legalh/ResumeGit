@@ -1,0 +1,94 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+% 
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{苑辉辉}
+
+\basicInfo{
+  \email{uestc_yuanhuihui@163.com} \textperiodcentered\ 
+  \phone{(+86) 186-4992-7093} \textperiodcentered\ 
+  % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{电子科技大学}, 成都, 四川 }{2021 -- 至今}
+\textit{在读硕士研究生}\ 计算机技术, 预计 2024 年 6 月毕业
+\datedsubsection{\textbf{电子科技大学}, 成都, 四川}{2017 -- 2021}
+\textit{学士}\ 网络工程
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{基于C++开发的支持简单SQL操作的单机数据库}}{2022年10月 -- 2022年11月}
+\role{C++/Linux}{个人项目}
+\begin{itemize}
+  \item 控制台交互程序读取和分析简单SQL语句 (REPL：read-execute-print-loop)
+  \item 实现基本的CRUD、并发请求、日志和数据恢复操作
+  \item 使用B+Tree构建索引
+\end{itemize}
+
+\datedsubsection{\textbf{基于C++开发的GFS分布式文件系统}}{2021年10月 -- 2021年11月}
+\role{C++/Linux}{个人项目}
+\begin{onehalfspacing}
+分布式负载均衡
+\begin{itemize}
+  \item 实现了GFS文件系统基本框架
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于C++开发的银行转账后台系统}}{2022年6月 -- 2022年7月}
+\role{C++, Linux}{个人项目}
+\begin{itemize}
+  \item GB级数据快速合并、us级别的数据查询时间
+  \item 基于http协议的网络通信功能、支持并发操作、数据一致性保证和日志功能
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C/C++    平台: Linux
+  \item 测试: GTest/GDB
+  \item 工具: Git/MakeFile/Cmake/Valgrind
+  \item 课程: CMU15445/分布式系统/Linux高级程序设计/互联网络程序设计
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+研究生
+\begin{itemize}[parsep=0.5ex]
+  \item 二等奖学金一次
+\end{itemize}
+本科
+\begin{itemize}[parsep=0.5ex]
+  \item 国家奖学金一次
+  \item 优秀学生奖学金两次
+  \item 标兵奖学金一次
+\end{itemize}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 语言: 英语 - 四六级通过
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
